@@ -1,0 +1,5 @@
+{
+  "name": "Mutualism Portfolio Rebuild",
+  "description": "A React rebuild of the Mutualism portfolio website using Tailwind CSS, featuring a responsive layout, project gallery, and blog section.",
+  "requestFramePermissions": []
+}
