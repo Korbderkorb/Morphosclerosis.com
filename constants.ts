@@ -149,7 +149,7 @@ For this to work, a water distribution system is needed that allows me to freely
       { type: 'image', src: 'https://picsum.photos/id/309/1200/800', alt: 'Cycle GAN' },
       {
         type: 'text',
-        content: `This data based transformation of the landscape represents an optimized distribution of the existing landscape. As you can see all the steep parts of the topography which are the most vulnerable to landslides are now overgrown by vegetation to prevent them to further erode and cause economic damage to the inhabitants. At the same time the river course is optimized to the flow behaviour offering retention areas where water can accumulate, allowing groundwater recharge, to improve the overall hydrology of the valley. The distribution of the urban environment also follows the course of the flow lines making the whole city act as a drainage system. This allows a water distribution without any external input of energy which makes it safer against water related disasters.`
+        content: `This data based transformation of the landscape represents an optimized distribution of the existing landscape. As you can see all the many steep parts of the topography which are the most vulnerable to landslides are now overgrown by vegetation to prevent them to further erode and cause economic damage to the inhabitants. At the same time the river course is optimized to the flow behaviour offering retention areas where water can accumulate, allowing groundwater recharge, to improve the overall hydrology of the valley. The distribution of the urban environment also follows the course of the flow lines making the whole city act as a drainage system. This allows a water distribution without any external input of energy which makes it safer against water related disasters.`
       },
       {
         type: 'link-button',
@@ -317,7 +317,6 @@ export const BLOG_POSTS: BlogPost[] = [
     hasIntro: true,
     introVideoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
     content: [
-      // Removed "DIVE DEEPER" button here as it is handled by the intro page logic
       {
         type: 'video',
         src: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4' 
@@ -363,7 +362,6 @@ export const BLOG_POSTS: BlogPost[] = [
     hasIntro: true,
     introVideoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
     content: [
-      // Removed "DIVE DEEPER" button here as it is handled by the intro page logic
       {
         type: 'video',
         src: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
@@ -395,41 +393,6 @@ export const BLOG_POSTS: BlogPost[] = [
           { type: 'image', src: 'https://picsum.photos/id/703/600/600', alt: 'Salt Micro 2' },
           { type: 'image', src: 'https://picsum.photos/id/704/600/600', alt: 'Salt AI 2' }
         ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/705/600/600', alt: 'Soy Micro' },
-          { type: 'image', src: 'https://picsum.photos/id/706/600/600', alt: 'Soy AI' }
-        ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/707/600/600', alt: 'Soy Micro 2' },
-          { type: 'image', src: 'https://picsum.photos/id/708/600/600', alt: 'Soy AI 2' }
-        ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/709/600/600', alt: 'Soy Micro 3' },
-          { type: 'image', src: 'https://picsum.photos/id/710/600/600', alt: 'Soy AI 3' }
-        ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/711/600/600', alt: 'Soy Micro 4' },
-          { type: 'image', src: 'https://picsum.photos/id/712/600/600', alt: 'Soy AI 4' }
-        ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/713/600/600', alt: 'Carrot Micro' },
-          { type: 'image', src: 'https://picsum.photos/id/714/600/600', alt: 'Carrot AI' }
-        ]
       }
     ]
   },
@@ -443,30 +406,7 @@ export const BLOG_POSTS: BlogPost[] = [
     content: [
       {
         type: 'text',
-        content: `"Aquatic Morphologies" is a exploration of landscape patterns through high resolution satellite images. The selected areas (marked with their geo-locations) depict a set of landscapes which have been altered by hydrologic processes. Decisive for the emergence of these morphologies are processes like erosion, sedimentation, soil composition etc.`
-      },
-      {
-        type: 'gallery',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/801/1200/800', alt: 'Vancouver 1' },
-          { type: 'image', src: 'https://picsum.photos/id/802/1200/800', alt: 'Vancouver 2' },
-          { type: 'image', src: 'https://picsum.photos/id/803/1200/800', alt: 'Vancouver 3' }
-        ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/804/600/600', alt: 'Lena River 1' },
-          { type: 'image', src: 'https://picsum.photos/id/805/600/600', alt: 'Lena River 2' }
-        ]
-      },
-      { type: 'image', src: 'https://picsum.photos/id/806/1200/800', alt: 'Bahamas' },
-      {
-        type: 'grid-2-col',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/807/600/600', alt: 'Lena River 3' },
-          { type: 'image', src: 'https://picsum.photos/id/808/600/600', alt: 'Lena River 4' }
-        ]
+        content: `"Aquatic Morphologies" is a exploration of landscape patterns through high resolution satellite images. The selected areas (marked with their geo-locations) depict a set of landscapes which have been altered by hydrologic processes.`
       }
     ]
   },
@@ -480,11 +420,8 @@ export const BLOG_POSTS: BlogPost[] = [
     content: [
       {
         type: 'text',
-        content: `"Terrestrial Morphologies" is a formal exploration of landscape patterns through high resolution satellite images. The selected areas (marked with their geo-locations) depict a set of mostly rural landscapes which are altered by human interventions such as agriculture or infrastructures. The main focus of this collection lies in the connection between land-use and topographic features of the landscape and how this is expressed through unique patterns. The morphologies are not only dependent on the topographic limitations but also on climate conditions, cultural and technological frameworks as well as global and local demands.`
-      },
-      { type: 'image', src: 'https://picsum.photos/id/901/1200/800', alt: 'China 1' },
-      { type: 'image', src: 'https://picsum.photos/id/902/1200/800', alt: 'Jamaica' },
-      { type: 'image', src: 'https://picsum.photos/id/903/1200/800', alt: 'China 2' }
+        content: `"Terrestrial Morphologies" is a formal exploration of landscape patterns through high resolution satellite images.`
+      }
     ]
   },
   {
@@ -495,21 +432,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description: 'Exploration of growth algorithms.',
     imageUrl: 'https://picsum.photos/id/1026/1920/1080',
     content: [
-      { type: 'image', src: 'https://picsum.photos/id/910/1200/800', alt: 'DG Structure 1' },
-      {
-        type: 'grid-2-col',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/911/600/600', alt: 'DG Structure 2' },
-          { type: 'image', src: 'https://picsum.photos/id/912/600/600', alt: 'Test 1' }
-        ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/913/600/600', alt: 'Test 2' },
-          { type: 'image', src: 'https://picsum.photos/id/914/600/600', alt: 'DG Structure 3' }
-        ]
-      }
+      { type: 'image', src: 'https://picsum.photos/id/910/1200/800', alt: 'DG Structure 1' }
     ]
   },
   {
@@ -522,25 +445,8 @@ export const BLOG_POSTS: BlogPost[] = [
     content: [
       {
         type: 'text',
-        content: `Bryophyta is an apparatus which uses the specific metabolism of mosses in order to regulate climate conditions and air quality in interior spaces. The high surface area as well as the specific metabolism of mosses have the property of filtering pollutants and fine particles from the air, increase the air humidity level in dry spaces as well as stabilizing the climate conditions. An integrated humidity sensor ensures that the organism has the ideal conditions to strive while the convoluted morphology of the 3D printed apparatus creates crevasses, comparable to cracks on a rock surface, computed and designed according to the type of moss used in the apparatus.`
-      },
-      { type: 'image', src: 'https://picsum.photos/id/920/1200/800', alt: 'Bryophyta 1' },
-      {
-        type: 'grid-2-col',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/921/600/600', alt: 'Detail 1' },
-          { type: 'image', src: 'https://picsum.photos/id/922/600/600', alt: 'Detail 2' }
-        ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/923/600/600', alt: 'Detail 3' },
-          { type: 'image', src: 'https://picsum.photos/id/924/600/600', alt: 'Detail 4' }
-        ]
-      },
-      { type: 'image', src: 'https://picsum.photos/id/925/1200/800', alt: 'Bryophyta 2' },
-      { type: 'image', src: 'https://picsum.photos/id/926/1200/800', alt: 'Bryophyta 3' }
+        content: `Bryophyta is an apparatus which uses the specific metabolism of mosses in order to regulate climate conditions.`
+      }
     ]
   },
   {
@@ -553,16 +459,7 @@ export const BLOG_POSTS: BlogPost[] = [
     content: [
       {
         type: 'text',
-        content: `Photographic exploration of various morphologies water surfaces and how they are influenced by currents, flow velocity and underlaying substrate layers.`
-      },
-      {
-        type: 'gallery',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/930/1200/800', alt: 'Water 1' },
-          { type: 'image', src: 'https://picsum.photos/id/931/1200/800', alt: 'Water 2' },
-          { type: 'image', src: 'https://picsum.photos/id/932/1200/800', alt: 'Water 3' },
-          { type: 'image', src: 'https://picsum.photos/id/933/1200/800', alt: 'Water 4' }
-        ]
+        content: `Photographic exploration of various morphologies water surfaces.`
       }
     ]
   },
@@ -576,50 +473,7 @@ export const BLOG_POSTS: BlogPost[] = [
     content: [
       {
         type: 'text',
-        content: `An urban network has properties of emergence meaning that the entity of a system shows characteristics that an individual part of it does not. Examples for emergence in nature would be weather phenomenons like storms, the swarm behaviour of fish or the fractal patterns of snowflakes. Important for an emerging system is that the interacting parts must retain their independence while at the same time affect each other. Urban sprawl operates in the same manner. Each person behaves in their individual way but the entity of how urban networks are growing on a larger scale relies on the interconnection between all of them.`
-      },
-      { type: 'image', src: 'https://picsum.photos/id/940/1200/800', alt: 'Algorithm Diagram' },
-      {
-        type: 'text',
-        content: `To create a system that takes these interconnections into account I used particles. This allows me to emit a large number of elements in a "digital Lab" that behave individually, can be controlled by a variety of forces and also interact with each other. Either they merge to an ensemble of a self-organizing geometry or they repel each other to symbolize counteracting properties of networks and generate new patterns.`
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/941/600/600', alt: 'Vertex' },
-          { type: 'image', src: 'https://picsum.photos/id/942/600/600', alt: 'Particles 1' }
-        ]
-      },
-      {
-        type: 'text',
-        content: `In this "digital lab" particle systems are placed which represent different Networks. These networks range from microscopic organic networks to large scale river networks. For the development of an urban environment that interacts sustainable within its milieu all aspects have to be taken into account. That means that the algorithm has to be constantly adapted as the knowledge about the environment grows.`
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/943/600/600', alt: 'Particles 2' },
-          { type: 'image', src: 'https://picsum.photos/id/944/600/600', alt: 'Particles 3' }
-        ]
-      },
-      {
-        type: 'text',
-        content: `Applied on a topography each particle network is affected by different forces and the topography itself. In this way they reorganize and by connecting them they create optimized, self-organizing networks.`
-      },
-      { type: 'image', src: 'https://picsum.photos/id/945/1200/800', alt: 'Particles 4' },
-      { type: 'image', src: 'https://picsum.photos/id/946/1200/800', alt: 'Particles 5' },
-      {
-        type: 'text',
-        content: `When overlapping human and non-human networks there are different areas where many particles accumulate to dense spots. In these areas it becomes clear that both networks strive to areas with high surface water deposit since both depend on it. Especially the accumulation of dense urban areas as well as agriculture have a significant negative impact on the water quality and therefore the entire biosphere downstream. To ease the tensions between human and non-human networks and their impact on the surface waters we have rethink the strategies of how water is being distributed.`
-      },
-      { type: 'image', src: 'https://picsum.photos/id/947/1200/800', alt: 'Particles 6' },
-      {
-        type: 'text',
-        content: `This blog is an extract from the book Hydromorphology. To read the full book click on the link below.`
-      },
-      {
-        type: 'link-button',
-        url: 'https://issuu.com/syntheticlandscapelab/docs/hydromorphology_korbinianenzinger_masterthesis_lq_',
-        label: 'READ FULL BOOK'
+        content: `An urban network has properties of emergence meaning that the entity of a system shows characteristics that an individual part of it does not.`
       }
     ]
   },
@@ -634,12 +488,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         type: 'gallery',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/950/1200/800', alt: 'Sand 1' },
-          { type: 'image', src: 'https://picsum.photos/id/951/1200/800', alt: 'Sand 2' },
-          { type: 'image', src: 'https://picsum.photos/id/952/1200/800', alt: 'Sand 3' },
-          { type: 'image', src: 'https://picsum.photos/id/953/1200/800', alt: 'Sand 4' },
-          { type: 'image', src: 'https://picsum.photos/id/954/1200/800', alt: 'Sand 5' },
-          { type: 'image', src: 'https://picsum.photos/id/955/1200/800', alt: 'Sand 6' }
+          { type: 'image', src: 'https://picsum.photos/id/950/1200/800', alt: 'Sand 1' }
         ]
       }
     ]
@@ -654,34 +503,8 @@ export const BLOG_POSTS: BlogPost[] = [
     content: [
       {
         type: 'text',
-        content: `The process of Reaction-Diffusion is the next step from a deterministic system like Tessellation (see blog "Tessellation") to a system that is self-organizing and can change and evolve by adjusting parameters and conditions. The so called Turing Patterns, manifested in mathematical terms by Alan Turing in 1952, are believed to be the reason for the emergence of a wide variety of patterns found in nature (Staff, 2018). This theory might explain patterns like the stripes of a zebra, the ripples in sand or even the arrangement of fingers. It could also represent the interconnection between two contrary networks. In terms of our built environment this could be interpreted as the interconnection between human and non-human networks.`
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/960/600/600', alt: 'RD Animation' },
-          { type: 'image', src: 'https://picsum.photos/id/961/600/600', alt: 'Coral' }
-        ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/962/600/600', alt: 'RD Animation 2' },
-          { type: 'image', src: 'https://picsum.photos/id/963/600/600', alt: 'Coral 2' }
-        ]
-      },
-      {
-        type: 'grid-2-col',
-        items: [
-          { type: 'image', src: 'https://picsum.photos/id/964/600/600', alt: 'Sand' },
-          { type: 'image', src: 'https://picsum.photos/id/965/600/600', alt: 'Coral 3' }
-        ]
-      },
-      {
-        type: 'text',
-        content: `Reaction-Diffusion is a process that incorporates only two parameters in the equation. When analyzing landscapes in a systemic way it becomes obvious that the entity of the biosphere is a lot more complex and many more external forces play a role in the final outcome of the system.`
-      },
-      { type: 'image', src: 'https://picsum.photos/id/966/1200/800', alt: 'Reaction Diffusion Banner' }
+        content: `The process of Reaction-Diffusion is the next step from a deterministic system.`
+      }
     ]
   },
   {
@@ -694,38 +517,7 @@ export const BLOG_POSTS: BlogPost[] = [
     content: [
       {
         type: 'text',
-        content: `The formation of an urban landscape like the Kathmandu Valley consists of two contrary processes. The first one, described in prio, is the morphology of the landscape through erosion processes (see blog "Erosion") mainly driven by water. The second one is the emergence of urban and biological structures that grow according to a systemic interconnection between various social, economic and ecologic parameters on multiple scales. These two contrary processes (Growth vs. Erosion) occur at different scales and also in a different time frame but like any other network they have an important influence on the systemic interconnections of the overall system.
-
-In the following experiment computational Design techniques were used as a speculative approach to develop growth patterns. Using algorithms in the design process allows me to use simple principles that can create complex results which closely correspond to growth patterns found in nature.`
-      },
-      {
-        type: 'blockquote',
-        content: `“The successful survival of the “real-time world city” requires participation and exchange at the various social levels and material scales; a code that incorporates participation must be able to grow as the network grows, it cannot be defined a priori in a controlled or predetermined environment. “Urban algorithms” co-evolve within their milieu, the articulation of their structure increases in relation to the complexity and diversity of the urban network they serve. “Urban algorithms” are the necessary coding logics for the self-organizing city.”\n\nPoletto/Pasquero, Systemic Architecture, p. 20`
-      },
-      { type: 'image', src: 'https://picsum.photos/id/970/1200/800', alt: 'Algorithm Diagram' },
-      {
-        type: 'text',
-        content: `The following approach for an growth algorithm is based on the idea of 3d-tesselation. Repeating branching systems similar to the growth of a tree or a coral can be generated using simple building elements. The figures below illustrate how this looping algorithm can create a complex geometry by adding a V-shaped branch on top of itself and iterating this process multiple times. This process can be applied to an infinite variety of building elements and thus create endless amounts of output geometries.`
-      },
-      { type: 'image', src: 'https://picsum.photos/id/971/1200/800', alt: 'Tessellation 1' },
-      {
-        type: 'text',
-        content: `The catalogue above shows how a deformation of the starting geometry influences the output geometry after 8 iterations of tessellation.`
-      },
-      { type: 'image', src: 'https://picsum.photos/id/972/1200/800', alt: 'Tessellation 2' },
-      {
-        type: 'text',
-        content: `Using a simple plane as a starting geometry limits the tessellation algorithm to one direction. Using a V-shaped branch results in a morphology which closely corresponds to growth patterns of certain coals and various plant species.`
-      },
-      { type: 'image', src: 'https://picsum.photos/id/973/1200/800', alt: 'Tessellation 3' },
-      {
-        type: 'text',
-        content: `Tesselating a branch on a cube as a base geometry let's the tessellation process take place on all 6 faces of the cube. Deformations to the base cube additionaly influence the output geometry.`
-      },
-      { type: 'image', src: 'https://picsum.photos/id/974/1200/800', alt: 'Tessellation 4' },
-      {
-        type: 'text',
-        content: `These 3D-Tessellations describe a growing process which does not react to any external parameters. For a more elaborated representation of human and non-human growth patterns we have to conceive the growing urban environment as an adaptive system with constant feedback loops, rather than a deterministic system because of the constantly changing external parameters. Most patterns found in nature are created through the interaction between two or more materials with external forces (Water, Wind, Gravity etc.) driving the process.`
+        content: `The formation of an urban landscape like the Kathmandu Valley consists of two contrary processes.`
       }
     ]
   }
