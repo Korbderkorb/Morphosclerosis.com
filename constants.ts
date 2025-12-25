@@ -1,10 +1,22 @@
 import { Project, BlogPost, NavLink } from './types';
 
 export const NAV_LINKS: NavLink[] = [
-  { label: 'Projects', path: '/projects' },
-  { label: 'Blog', path: '/blog' },
-  { label: 'About', path: '/about' },
-  { label: 'Contact', path: '/#contact' },
+  {
+    label: 'Projects',
+    path: '/projects'
+  },
+  {
+    label: 'Blog',
+    path: '/blog'
+  },
+  {
+    label: 'About',
+    path: '/about'
+  },
+  {
+    label: 'Contact',
+    path: '/#contact'
+  }
 ];
 
 export const FEATURED_PROJECTS: Project[] = [
@@ -24,7 +36,11 @@ export const FEATURED_PROJECTS: Project[] = [
 
 The structural foundation of CRYSTALLUM is realized through the implementation of an algae-based filament, carefully extracted from marine sources. This filament serves as a multifaceted medium, not only contributing to the structural integrity of the piece but also resonating with the sustainable dynamics inherent in our ecosystem. Being one of the main contributors to global CO2 re-metabolization, algae play an essential role in balancing climatic conditions. By encapsulating algae in the 3D printed morphology, the pieces act as an allegory for how art can become an active part in tackling environmental issues on a global scale.`
       },
-      { type: 'image', src: 'https://picsum.photos/id/201/1200/800', alt: 'Crys Detail' },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/201/1200/800',
+        alt: 'Crys Detail'
+      },
       {
         type: 'text',
         content: `The amalgamation of art and science unfolds further as CRYSTALLUM's 3D printed structure becomes the canvas for a transformative process marked by the infusion of salt crystals. Inspired by the natural deposition of salts in marine environments, CRYSTALLUM studies the intrinsic elegance of crystal growth. Each crystalline formation becomes a distinct manifestation, a visual narrative of the intricate interplay of dynamic forces shaping the piece's aesthetics.`
@@ -32,15 +48,27 @@ The structural foundation of CRYSTALLUM is realized through the implementation o
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/202/600/800', alt: 'Detail 1' },
-          { type: 'image', src: 'https://picsum.photos/id/203/600/800', alt: 'Detail 2' }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/202/600/800',
+            alt: 'Detail 1'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/203/600/800',
+            alt: 'Detail 2'
+          }
         ]
       },
       {
         type: 'text',
         content: `What distinguishes CRYSTALLUM is its individualized link to the wearer, made possible through cutting-edge 3D scanning technology. The morphological arrangement of this wearable piece seamlessly aligns with the curves and contours of the human body. Inspired by the elegant growth patterns found in coral reefs, the design of the 3D printed piece emerges, echoing the formations witnessed in these natural structures.`
       },
-      { type: 'image', src: 'https://picsum.photos/id/204/1200/800', alt: 'Rendering' },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/204/1200/800',
+        alt: 'Rendering'
+      },
       {
         type: 'text',
         content: `Each piece of CRYSTALLUM is a unique creation, meticulously generated with unwavering attention to the specific event it is intended for. While the 3D printed structure remains a constant, ensuring reusability, the crystals undergo a process of regeneration, anticipating each distinct wearing event.`
@@ -48,43 +76,90 @@ The structural foundation of CRYSTALLUM is realized through the implementation o
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/206/600/600', alt: 'Borax Salt' },
-          { type: 'text', content: 'Borax Salt Crystallization\n40x Magnification\nSpeed x10' }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/206/600/600',
+            alt: 'Borax Salt'
+          },
+          {
+            type: 'text',
+            content: `Borax Salt Crystallization
+40x Magnification
+Speed x10`
+          }
         ]
       },
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/208/600/600', alt: 'Epsom Salt' },
-          { type: 'text', content: 'Epsom Salt Crystallization\n40x Magnification\nSpeed x10' }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/208/600/600',
+            alt: 'Epsom Salt'
+          },
+          {
+            type: 'text',
+            content: `Epsom Salt Crystallization
+40x Magnification
+Speed x10`
+          }
         ]
       },
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/209/600/600', alt: 'Ammonium Sulfate' },
-          { type: 'text', content: 'Ammonium Sulfate Crystallization\n40x Magnification\nSpeed x10' }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/209/600/600',
+            alt: 'Ammonium Sulfate'
+          },
+          {
+            type: 'text',
+            content: `Ammonium Sulfate Crystallization
+40x Magnification
+Speed x10`
+          }
         ]
       },
       {
         type: 'text',
         content: `Beyond its status as a mere wearable piece, CRYSTALLUM beckons you to immerse yourself in a realm where art learns from natural processes, and technology serves as a conduit for a sustainable and aesthetically conscious future.`
       },
-      { type: 'image', src: 'https://picsum.photos/id/210/1200/800', alt: 'Rendering 2' },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/210/1200/800',
+        alt: 'Rendering 2'
+      },
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/211/600/800', alt: 'Model View 1' },
-          { type: 'image', src: 'https://picsum.photos/id/212/600/800', alt: 'Model View 2' }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/211/600/800',
+            alt: 'Model View 1'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/212/600/800',
+            alt: 'Model View 2'
+          }
         ]
       },
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/213/600/800', alt: 'Model View 3' },
-          { type: 'image', src: 'https://picsum.photos/id/214/600/800', alt: 'Model View 4' }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/213/600/800',
+            alt: 'Model View 3'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/214/600/800',
+            alt: 'Model View 4'
+          }
         ]
-      },
+      }
     ]
   },
   {
@@ -103,9 +178,15 @@ The structural foundation of CRYSTALLUM is realized through the implementation o
       },
       {
         type: 'blockquote',
-        content: `[..] "it recognizes diverse communities of life on Earth that are composed not only through biotic factors but also, where applicable, through ethical relations, that is, the valuing of other beings as more than just resources."\n\nSmith, Mick (2014). "Deep Ecology: What is Said and (to be) Done?"`
+        content: `[..] "it recognizes diverse communities of life on Earth that are composed not only through biotic factors but also, where applicable, through ethical relations, that is, the valuing of other beings as more than just resources."
+
+Smith, Mick (2014). "Deep Ecology: What is Said and (to be) Done?"`
       },
-      { type: 'image', src: 'https://picsum.photos/id/301/1200/800', alt: 'Hydrology Map' },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/301/1200/800',
+        alt: 'Hydrology Map'
+      },
       {
         type: 'text',
         content: `According to the International Institute of Water Management in Kathmandu, Nepal has 2.7 % of the available fresh water on Earth, making it the second country, after Brazil, with more water reserves in the world. The 8.6 million cubic meters of water that flow from the Himalaya peaks through the Nepali valleys every year provide each of its inhabitants an annual availability of 9000 cubic meters (9 million liters). This is one of the highest rates in the world, much higher, for instance, than the one in India, which reaches 1431 cubic meters.
@@ -114,39 +195,67 @@ The thaw of nearly 3000 glaciers and lakes in the highest mountains of the Earth
 
 Since 27% of the population in Nepal does not have access to improved sanitation the excisting surface water is exposed to pollution through industry, agriculture as well as the discharge of untreated sewage from dense urban areas, making it unsuitable as a safe souce of drinking water. As a result ground water is becoming the major source of drinking water putting an immense stress on the ground water levels and the ecology depending on it. Looking at the land distribution and rate of urban sprawl in the metropolitain region of Kathmandu it becomes obvious that this trend is likely to worsen if no countervailing measures are undertaken.`
       },
-      { type: 'image', src: 'https://picsum.photos/id/302/1200/800', alt: 'Erosion Analysis' },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/302/1200/800',
+        alt: 'Erosion Analysis'
+      },
       {
         type: 'text',
         content: `This map of the Kathmandu valley was modified with different erosion techniques to enhance the awareness how the process of water dynamics and the accompanying morphology of the landscape behaves over time. Additionally the shading of the map conveys information about the slope of the topography reduced to a black and white image. The lightest areas represent the steepest slopes and therefore the highest rates of surface water runoff. On the other hand the black areas depict the rather flat areas with slower surface water runoff allowing higher rates of groundwater recharge. this map lets us conceive valuable information about hydromophological processes independently from human interventions.`
       },
-      { type: 'image', src: 'https://picsum.photos/id/304/1200/800', alt: 'Human Settlements' },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/304/1200/800',
+        alt: 'Human Settlements'
+      },
       {
         type: 'text',
         content: `Over the course of the past century the human impact on the environment became increasingly significant, making it impossible to analyse hydrological processes without involving human networks. This map adds the Anthropocene as an extra layer of information involving houses and street networks. unfortunately the areas with the highest potential for groundwater recharge are also the areas best suited for urban development, leading to a negative effect on the hydrology. The sealing of the soil surface not only leads to an increased surface water run-off and lowering of the groundwater level but also to a higher risk of flooding.`
       },
-      { type: 'image', src: 'https://picsum.photos/id/305/1200/800', alt: 'Hydrology Valley' },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/305/1200/800',
+        alt: 'Hydrology Valley'
+      },
       {
         type: 'text',
         content: `Since water is the main impulse of morphologic processes of the topography and the source for all living beings (humand as well as non-human) it is vital to set it in the focus of attention when trying to develop a new strategy of a sustainable urban sprawl. It is important to understand where the water comes from and what the major influences on the water quality are. This drawing illustrates how the water quality decreases depending on the density of the built-up urban environment. Clarifying these hydromophological processes and using them as a base map is used as a foundation for the development of a new network that allows human and non-human networks to interact with each other to form a "true democracy" that incorporates nature as a indispensable part of the world we live in.`
       },
-      { type: 'image', src: 'https://picsum.photos/id/306/1200/800', alt: 'Zoom NE' },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/306/1200/800',
+        alt: 'Zoom NE'
+      },
       {
         type: 'text',
         content: `My proposal aims to show an alternative city distribution that is designed based on different data inputs from my analysis. The goal of this redistribution is to reduce the stress on the surface water quality caused by pollution, offering a safe source of drinking water for the people of Kathmandu as well as reducing the risks of flooding and landslides.
 
 For this to work, a water distribution system is needed that allows me to freely distribute water to any desired point of the Valley. I was inspired by the "Water Elevating Towers", a low tech approach that has been used in the late 19th century in Tamesloht, Morocco. It is an alternative to an Aqueduct that uses the hydrostatic pressure to transport water from one side of a valley to another. I adapted this linear approach of transporting water to apply to the 3D topography of the Kathmandu Valley.`
       },
-      { type: 'image', src: 'https://picsum.photos/id/307/1200/800', alt: 'Calculations' },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/307/1200/800',
+        alt: 'Calculations'
+      },
       {
         type: 'text',
         content: `A script was developed to calculate local high and low points on the topography through a flow line analysis. Water is absorbed at the low points and transported to the next high points at a lower elevation through hydro-static pressure. from these locations water can be redistributed again to its surrounding environment to provide a safe source of water to households as well as agriculture. As a result we get a network for a water distribution system that can cover the entire Kathmandu Valley without any additional input of energy.`
       },
-      { type: 'image', src: 'https://picsum.photos/id/308/1200/800', alt: 'Distribution Network' },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/308/1200/800',
+        alt: 'Distribution Network'
+      },
       {
         type: 'text',
         content: `Furthermore these calculated connections are adapted to the topography, using machine learning, to translate this diagrammatic data into an artificial landscape that entirely follows the hydrology of the Kathmandu Valley.`
       },
-      { type: 'image', src: 'https://picsum.photos/id/309/1200/800', alt: 'Cycle GAN' },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/309/1200/800',
+        alt: 'Cycle GAN'
+      },
       {
         type: 'text',
         content: `This data based transformation of the landscape represents an optimized distribution of the existing landscape. As you can see all the many steep parts of the topography which are the most vulnerable to landslides are now overgrown by vegetation to prevent them to further erode and cause economic damage to the inhabitants. At the same time the river course is optimized to the flow behaviour offering retention areas where water can accumulate, allowing groundwater recharge, to improve the overall hydrology of the valley. The distribution of the urban environment also follows the course of the flow lines making the whole city act as a drainage system. This allows a water distribution without any external input of energy which makes it safer against water related disasters.`
@@ -156,16 +265,37 @@ For this to work, a water distribution system is needed that allows me to freely
         url: 'https://issuu.com/syntheticlandscapelab/docs/hydromorphology_korbinianenzinger_masterthesis_lq_',
         label: 'READ FULL BOOK'
       },
-      { type: 'video', src: 'https://www.youtube.com/embed/Uedd-MwTV1M' },
+      {
+        type: 'video',
+        src: 'https://www.youtube.com/embed/Uedd-MwTV1M'
+      },
       {
         type: 'gallery',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/310/600/400' },
-          { type: 'image', src: 'https://picsum.photos/id/311/600/400' },
-          { type: 'image', src: 'https://picsum.photos/id/312/600/400' },
-          { type: 'image', src: 'https://picsum.photos/id/313/600/400' },
-          { type: 'image', src: 'https://picsum.photos/id/314/600/400' },
-          { type: 'image', src: 'https://picsum.photos/id/315/600/400' }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/310/600/400'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/311/600/400'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/312/600/400'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/313/600/400'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/314/600/400'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/315/600/400'
+          }
         ]
       }
     ]
@@ -184,7 +314,11 @@ For this to work, a water distribution system is needed that allows me to freely
         type: 'text',
         content: `The topic and the associated field of tension between climate and nature has been intensively addressed for several decades in many areas of industry, business, architecture, etc., in an attempt to find solutions to various "problems". From a human perspective, these problems manifest themselves in the form of extreme weather events such as droughts, floods or tornadoes, which directly harm us economically or in terms of health. However, issues such as climate change and sustainability are much broader and require a holistic understanding of the interaction between human actions and natural processes.`
       },
-      { type: 'image', src: 'https://picsum.photos/id/401/1200/800', alt: 'Swarm Detail' },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/401/1200/800',
+        alt: 'Swarm Detail'
+      },
       {
         type: 'text',
         content: `Ecosystems, whether local in the Berchtesgadener Land or global, are dynamic systems. This means that they are constantly changing in order to adapt to changing environmental conditions. Especially since the beginning of industrial revolution in the 1800s, the start of the Anthropocene, it has become clear that humanity plays a key role in the development of the climate due to population growth and technological innovations. It has largely proven true that the speed of technological development is exponential, and thus the tension between "technological evolution" and "biological evolution" continues to grow. On the one hand, technological innovations in science help us to perceive our environment more accurately and to design processes more efficiently; on the other hand, these innovations are also part of the problem we are trying to combat today.`
@@ -192,8 +326,16 @@ For this to work, a water distribution system is needed that allows me to freely
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/402/600/800', alt: 'Swarm 1' },
-          { type: 'image', src: 'https://picsum.photos/id/403/600/800', alt: 'Swarm 2' }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/402/600/800',
+            alt: 'Swarm 1'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/403/600/800',
+            alt: 'Swarm 2'
+          }
         ]
       },
       {
@@ -207,26 +349,48 @@ For this to work, a water distribution system is needed that allows me to freely
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/404/600/800', alt: 'Swarm Module' },
-          { type: 'text', content: `The structure is made using 3D printing, a technology that has become very popular in recent years. On the one hand, this technology offers design possibilities that were previously unthinkable, on the other hand, the issue of sustainability must be critically examined.
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/404/600/800',
+            alt: 'Swarm Module'
+          },
+          {
+            type: 'text',
+            content: `The structure is made using 3D printing, a technology that has become very popular in recent years. On the one hand, this technology offers design possibilities that were previously unthinkable, on the other hand, the issue of sustainability must be critically examined.
 
 Compared to conventional 3D printing techniques, which are usually associated with a large amount of infill material, the three-dimensionality of this structure is generated exclusively by tensioning a two-dimensional geometry. This has the decisive advantage that each of the 850 modules weighs only approx. 0.5 - 1.5 g, having an amazing inherent stability due to the curved geometry and are able to adapt to almost any surface due to the flexibility of the material.
 
-Non-toxic, biodegradable ecoPLA is used for the installation, which, due to its materiality and organic morphology, also intensifies the discourse on the areas of tension between humans, nature and the climate.` }
+Non-toxic, biodegradable ecoPLA is used for the installation, which, due to its materiality and organic morphology, also intensifies the discourse on the areas of tension between humans, nature and the climate.`
+          }
         ]
       },
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/405/600/800', alt: 'Swarm Geometry' },
-          { type: 'text', content: `This image illustrates how a complex three-dimensional structure is formed from an apparently simple initial geometry. Parameters such as the strength of the prestressing, the geometry of the subsoil or the combination of several modules influence the final morphology of the "swarm", which gives the installation its own character depending on its location.` }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/405/600/800',
+            alt: 'Swarm Geometry'
+          },
+          {
+            type: 'text',
+            content: `This image illustrates how a complex three-dimensional structure is formed from an apparently simple initial geometry. Parameters such as the strength of the prestressing, the geometry of the subsoil or the combination of several modules influence the final morphology of the "swarm", which gives the installation its own character depending on its location.`
+          }
         ]
       },
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/406/600/800', alt: 'Swarm Detail 3' },
-          { type: 'image', src: 'https://picsum.photos/id/407/600/800', alt: 'Swarm Detail 4' }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/406/600/800',
+            alt: 'Swarm Detail 3'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/407/600/800',
+            alt: 'Swarm Detail 4'
+          }
         ]
       },
       {
@@ -242,12 +406,30 @@ For more impressions of the installation click on the gallery below!`
       {
         type: 'gallery',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/408/600/400' },
-          { type: 'image', src: 'https://picsum.photos/id/409/600/400' },
-          { type: 'image', src: 'https://picsum.photos/id/410/600/400' },
-          { type: 'image', src: 'https://picsum.photos/id/411/600/400' },
-          { type: 'image', src: 'https://picsum.photos/id/412/600/400' },
-          { type: 'image', src: 'https://picsum.photos/id/413/600/400' }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/408/600/400'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/409/600/400'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/410/600/400'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/411/600/400'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/412/600/400'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/413/600/400'
+          }
         ]
       }
     ]
@@ -270,38 +452,79 @@ For more impressions of the installation click on the gallery below!`
         type: 'text',
         content: `For Gilles Clement, the garden "is a process of formalised transmission of biological messages" (Gilles Clement, Il giardiniere planetario, 2008), which today can be achieved through algorithmic coding. Algorithms become machines for the "gardener" to breed biodiversity. Understanding aesthetics as an intrinsic ecological property, HYPH explores biological patterns and materials as a form of artistic language for realising sculptural objects through digital design and production techniques.`
       },
-      { type: 'image', src: 'https://picsum.photos/id/501/1200/800', alt: 'Hyph Print' },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/501/1200/800',
+        alt: 'Hyph Print'
+      },
       {
         type: 'text',
         content: `HYPH proposes to change the aesthetics and ethics of food production. Instead of enclosed and out-of-town greenhouses and farms, HYPH explores scenarios where climate-specific fruits grow in urban environments, creating a new aesthetic for urban spaces. Following the climatic characteristics of Russian cities, as well as Russian culinary traditions and mushroom picking customs, HYPH proposes to integrate fungi gardens into the public spaces of our cities. "Every city dweller becomes a gardener" (Gilles Clement, 2008) or in the particular case a mushroom grower, being in constant relationship with the processes of growth, cultivation and harvesting. The urban dweller no longer buys packaged mushrooms in the supermarket, but can grow the necessary fruit himself or follow the processes of growth. Environmental ecology is a key factor and focus in such a scenario, as humans need to control pollution in the ecosystem in order to produce food.
 
 Mycelium, in addition to providing a resource for human sustenance, plays an important role in the ecosystem as it helps to break down organic matter, recycle nutrients and form symbiotic relationships with plants and other organisms. Fungi can detect and respond to changes in temperature, humidity and nutrient availability by changing their growth patterns and behaviour. Fungi can also serve as indicators of environmental health. Because they are sensitive to changes in air and water quality, they can be used to monitor toxins or other pollutants in urban environments.`
       },
-      { type: 'image', src: 'https://picsum.photos/id/502/1200/800', alt: 'Hyph Catalogue' },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/502/1200/800',
+        alt: 'Hyph Catalogue'
+      },
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/503/600/600', alt: 'Mycorrhizal Network' },
-          { type: 'text', content: `One of the best-known examples of mycorrhizal relationships is that between trees and fungi. Trees and fungi are in a mutuallyistic relationship, with the fungus getting sugars from the tree and the tree getting water and minerals from the fungus. The mycelium also has the ability to connect different trees and plants together through a "mycorrhizal network" (Frank, 1885), enabling the exchange of resources (water, nitrogen, carbon and other minerals) and information between the plants.` }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/503/600/600',
+            alt: 'Mycorrhizal Network'
+          },
+          {
+            type: 'text',
+            content: `One of the best-known examples of mycorrhizal relationships is that between trees and fungi. Trees and fungi are in a mutuallyistic relationship, with the fungus getting sugars from the tree and the tree getting water and minerals from the fungus. The mycelium also has the ability to connect different trees and plants together through a "mycorrhizal network" (Frank, 1885), enabling the exchange of resources (water, nitrogen, carbon and other minerals) and information between the plants.`
+          }
         ]
       },
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/504/600/600', alt: 'Hyph Redefinition' },
-          { type: 'text', content: `HYPH redefines the relationship between trees and fungi in a new synthetic form. HYPH uses wood chips and mycelium as the basic building materials for art sculptures. The mushroom and wood varieties are selected according to the logic of their relationships in the natural local environment. The bio-programming process helps to extract the organisational principles of the mushroom mycelium and fix them in the form of a spatial topology. Fabrication techniques, such as additive manufacturing, allow the development of adaptive sculpting techniques based on research into material behaviour.` }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/504/600/600',
+            alt: 'Hyph Redefinition'
+          },
+          {
+            type: 'text',
+            content: `HYPH redefines the relationship between trees and fungi in a new synthetic form. HYPH uses wood chips and mycelium as the basic building materials for art sculptures. The mushroom and wood varieties are selected according to the logic of their relationships in the natural local environment. The bio-programming process helps to extract the organisational principles of the mushroom mycelium and fix them in the form of a spatial topology. Fabrication techniques, such as additive manufacturing, allow the development of adaptive sculpting techniques based on research into material behaviour.`
+          }
         ]
       },
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/505/600/600', alt: 'Biomaterial' },
-          { type: 'text', content: `Biomaterial based on shavings from wood waste is used for large scale 3d printing, suggesting a new regenerative life cycle of matter from wood in its living state to recycled wood material. This material is fully biodegradable and provides an excellent basis for mycelial growth on the surface of structures. At the time of 3D printing, mycelium spores are planted inside the printed structure. Sprouting through the walls of the sculptures, the mycelium compacts the printed wood structure with its nets and creates its own micro-environment for the growth of fruiting fungal bodies. The new materiality remembers the tactility and smell of wood and mycelium, integrating them into a new form and relationship. The aesthetic form of the sculptures embodies ecological agency.` }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/505/600/600',
+            alt: 'Biomaterial'
+          },
+          {
+            type: 'text',
+            content: `Biomaterial based on shavings from wood waste is used for large scale 3d printing, suggesting a new regenerative life cycle of matter from wood in its living state to recycled wood material. This material is fully biodegradable and provides an excellent basis for mycelial growth on the surface of structures. At the time of 3D printing, mycelium spores are planted inside the printed structure. Sprouting through the walls of the sculptures, the mycelium compacts the printed wood structure with its nets and creates its own micro-environment for the growth of fruiting fungal bodies. The new materiality remembers the tactility and smell of wood and mycelium, integrating them into a new form and relationship. The aesthetic form of the sculptures embodies ecological agency.`
+          }
         ]
       },
-      { type: 'image', src: 'https://picsum.photos/id/506/1200/800', alt: 'Ceiling Installation' },
-      { type: 'image', src: 'https://picsum.photos/id/507/1200/800', alt: 'Wall Installation' },
-      { type: 'image', src: 'https://picsum.photos/id/508/1200/800', alt: 'Mushroom Installation' }
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/506/1200/800',
+        alt: 'Ceiling Installation'
+      },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/507/1200/800',
+        alt: 'Wall Installation'
+      },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/508/1200/800',
+        alt: 'Mushroom Installation'
+      }
     ]
   }
 ];
@@ -319,7 +542,7 @@ export const BLOG_POSTS: BlogPost[] = [
     content: [
       {
         type: 'video',
-        src: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4' 
+        src: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4'
       },
       {
         type: 'text',
@@ -335,19 +558,39 @@ export const BLOG_POSTS: BlogPost[] = [
     description: '3D printing technique exploration.',
     imageUrl: 'https://picsum.photos/id/1021/1920/1080',
     content: [
-      { type: 'image', src: 'https://picsum.photos/id/601/1200/800', alt: 'Corallium 1' },
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/601/1200/800',
+        alt: 'Corallium 1'
+      },
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/602/600/600', alt: 'Corallium 2' },
-          { type: 'image', src: 'https://picsum.photos/id/603/600/600', alt: 'Corallium 3' }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/602/600/600',
+            alt: 'Corallium 2'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/603/600/600',
+            alt: 'Corallium 3'
+          }
         ]
       },
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/604/600/600', alt: 'Corallium 4' },
-          { type: 'image', src: 'https://picsum.photos/id/605/600/600', alt: 'Corallium 5' }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/604/600/600',
+            alt: 'Corallium 4'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/605/600/600',
+            alt: 'Corallium 5'
+          }
         ]
       }
     ]
@@ -383,15 +626,31 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/701/600/600', alt: 'Salt Micro' },
-          { type: 'image', src: 'https://picsum.photos/id/702/600/600', alt: 'Salt AI' }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/701/600/600',
+            alt: 'Salt Micro'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/702/600/600',
+            alt: 'Salt AI'
+          }
         ]
       },
       {
         type: 'grid-2-col',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/703/600/600', alt: 'Salt Micro 2' },
-          { type: 'image', src: 'https://picsum.photos/id/704/600/600', alt: 'Salt AI 2' }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/703/600/600',
+            alt: 'Salt Micro 2'
+          },
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/704/600/600',
+            alt: 'Salt AI 2'
+          }
         ]
       }
     ]
@@ -432,7 +691,11 @@ export const BLOG_POSTS: BlogPost[] = [
     description: 'Exploration of growth algorithms.',
     imageUrl: 'https://picsum.photos/id/1026/1920/1080',
     content: [
-      { type: 'image', src: 'https://picsum.photos/id/910/1200/800', alt: 'DG Structure 1' }
+      {
+        type: 'image',
+        src: 'https://picsum.photos/id/910/1200/800',
+        alt: 'DG Structure 1'
+      }
     ]
   },
   {
@@ -488,7 +751,11 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         type: 'gallery',
         items: [
-          { type: 'image', src: 'https://picsum.photos/id/950/1200/800', alt: 'Sand 1' }
+          {
+            type: 'image',
+            src: 'https://picsum.photos/id/950/1200/800',
+            alt: 'Sand 1'
+          }
         ]
       }
     ]
@@ -530,7 +797,5 @@ Currently I'm working as a Senior Lecturer at the Synthetic Landscape Lab, Insti
 My research focuses on the intersection of Architecture and Biology with the goal of creating mutualistic relationships between human and non-human entities.`;
 
 export const PHILOSOPHY_TEXT = `Mutualism between human and non-human starts with ecological awareness. To realize that life on earth is only possible through the interaction and synergy between millions or even billions of different organisms that inhabit it.
-
-Earth acts as an entity, just like the human body contains trillions of microorganisms that play an essential role to its' health. This entity has closely controlled self-regulatory feedback loops that keep the conditions on the planet within boundaries that are favourable to life. That means that biodiversity and the entity of earths "health" is not just how well organisms adapt to their environment, but more importantly how capable these organism are to create a symbiosis within their environment. During the Anthropocene, and accelerating rapidly since the industrial revolution, human development more and more became like a parasite killing it's own host.
 
 The goal is to evolve our common and mostly rigid understanding of architecture and develope design solutions which are able to change the way we interact with our environment with the ultimate goal of a mutualistic relationship between human and non-human instead of a parasitic one.`;
