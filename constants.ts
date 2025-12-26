@@ -586,6 +586,208 @@ Mycelium, in addition to providing a resource for human sustenance, plays an imp
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    id: 'new-blog-1766773628311',
+    title: 'Potenziale',
+    category: 'Exhibition | 3D Printing',
+    date: '2021',
+    description: ``,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/PotenzialeExhibition/b3.webp',
+    content: [
+      {
+        type: 'text',
+        content: `The Potenziale III was the first exhibition in my research process to create a mutualistic relationship with our non-human environment and is supposed to demonstrate the beneficial properties of an often overlooked organism: Moss. It has, on the one hand, the capability of filtering Pollutants and fine particles from the air through its' high surface area and specific metabolism. At the same time, it can regulate air humidity levels and in a larger scale even reduce soil degradation caused by erosion.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/PotenzialeExhibition/h02.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `These topics become more and more relevant considering the constantly growing human settlements, the concomitant demand for food as well as rising global temperatures and extreme weather evens caused by climate change. During my master thesis, where I investigated the large-scale effects of erosion and water pollution in Kathmandu, I came to the insight that the way we design our environment can be directly linked to the way we affect it.`
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/PotenzialeExhibition/v02.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/PotenzialeExhibition/v03.webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/PotenzialeExhibition/h04.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `I believe when we are re-designing existing patterns of inhabitation it is essential to include non-human partners in this process in order to mitigate the negative effects of human development on the biosphere. In this sense, Moss is only one of many possible organisms to develope a mutualistic relationship with, but no matter what organism, we deeply have to understand their properties and possible feedback loops on all scales to be able to create new patterns of mutualistic co-habitation with our non-human environment which is able to behave in a truly sustainable way.`
+      }
+    ],
+    featured: false
+  },
+  {
+    id: 'new-blog-1766773471003',
+    title: 'Dancing leaf',
+    category: '3D Printing',
+    date: '2022',
+    description: ``,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/DancingLeaf/Dancing%20Leaf%20TN.webp',
+    content: [
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/DancingLeaf/Dancing%20Leaf%20(1).webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/DancingLeaf/Dancing%20Leaf%20(2).webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/DancingLeaf/Dancing%20Leaf%20(3).webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/DancingLeaf/Dancing%20Leaf%20(4).webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/DancingLeaf/Dancing%20Leaf%20(5).webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/DancingLeaf/Dancing%20Leaf%20(6).webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/DancingLeaf/Dancing%20Leaf%20(7).webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/DancingLeaf/Dancing%20Leaf%20(8).webp',
+            alt: ''
+          }
+        ]
+      }
+    ],
+    featured: false
+  },
+  {
+    id: 'new-blog-1766772978566',
+    title: 'Erosion',
+    category: 'Generation|Patterns',
+    date: '2022',
+    description: ``,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Erosion/Erosion_01.webp',
+    content: [
+      {
+        type: 'text',
+        content: `Water is the main driving force when looking at the morphology of a landscape. Rainfall removes soil and rocks and transports it downstream to another location. This process of erosion is happening at all scales. The scale of the erosions varies by the amount of precipitation and the factor of time. Especially in areas with rainy seasons these morphological processes are happening much faster at a specific time of the year and can cause massive landslides sometimes affecting thousands of people.`
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Erosion/Erosion_s1.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Erosion/Erosion_s2.webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'text',
+        content: `Soil erosion from croplands carries away 25–40 billion tonnes of topsoil every year, significantly reducing crop yields and the soil’s ability to regulate water, carbon and nutrients, and transporting 23–42 million tonnes of nitrogen and 15–26 million tonnes of phosphorus off land, with major negative effects on water quality (FAO/ITPS, 2015).`
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Erosion/Erosion_i.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Erosion/Erosion_i2.webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'text',
+        content: `Wetlands (including rivers and lakes) cover only 2.6% of land but play a disproportionately large role in hydrology per unit area. The best estimate of reported global loss of natural wetland area due to human activity averages between 54% and 57%, but loss may have been as high as 87% since 1700, with a 3.7 times faster rate of wetland loss during the twentieth and early twenty-first centuries, equating to a loss of 64–71% of wetlands extent since that existing in 1900 (Davidson, 2014).`
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Erosion/Erosion_t.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Erosion/Erosion_t1.webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Erosion/Erosion_h.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Erosion/Erosion_h2.webp',
+            alt: ''
+          }
+        ]
+      }
+    ],
+    featured: false
+  },
+  {
     id: 'gelu',
     title: 'GELU',
     category: 'Research | Patterns',
@@ -611,11 +813,11 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Technique | 3D Printing',
     date: 'February 2024',
     description: `3D printing technique exploration.`,
-    imageUrl: 'https://picsum.photos/id/1021/1920/1080',
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Corallium/Corallium_TN.webp',
     content: [
       {
         type: 'image',
-        src: 'https://picsum.photos/id/601/1200/800',
+        src: 'https://storage.googleapis.com/mutualism-media/Corallium/corallium_01.webp',
         alt: 'Corallium 1'
       },
       {
@@ -623,12 +825,12 @@ export const BLOG_POSTS: BlogPost[] = [
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/602/600/600',
+            src: 'https://storage.googleapis.com/mutualism-media/Corallium/corallium_02.webp',
             alt: 'Corallium 2'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/603/600/600',
+            src: 'https://storage.googleapis.com/mutualism-media/Corallium/corallium_03.webp',
             alt: 'Corallium 3'
           }
         ]
@@ -638,12 +840,12 @@ export const BLOG_POSTS: BlogPost[] = [
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/604/600/600',
+            src: 'https://storage.googleapis.com/mutualism-media/Corallium/corallium_04.webp',
             alt: 'Corallium 4'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/605/600/600',
+            src: 'https://storage.googleapis.com/mutualism-media/Corallium/corallium_05.webp',
             alt: 'Corallium 5'
           }
         ]
@@ -663,7 +865,7 @@ export const BLOG_POSTS: BlogPost[] = [
     content: [
       {
         type: 'video',
-        src: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+        src: 'https://storage.googleapis.com/mutualism-media/Miscibility/Miscibility01.mp4'
       }
     ],
     featured: false
@@ -843,11 +1045,46 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Research | Application',
     date: 'February 2021',
     description: `Moss metabolism apparatus.`,
-    imageUrl: 'https://picsum.photos/id/1027/1920/1080',
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Bryophyta/06.webp',
     content: [
       {
         type: 'text',
         content: `Bryophyta is an apparatus which uses the specific metabolism of mosses in order to regulate climate conditions.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Bryophyta/r1.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Bryophyta/04.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Bryophyta/05.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Bryophyta/08.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Bryophyta/07.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Bryophyta/d2.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Bryophyta/s2.webp',
+        alt: ''
       }
     ]
   },
@@ -857,11 +1094,31 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Research | Patterns',
     date: 'January 2021',
     description: `Water surface patterns.`,
-    imageUrl: 'https://picsum.photos/id/1028/1920/1080',
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/WaterPatterns/Water_patterns_01_tn.webp',
     content: [
       {
         type: 'text',
         content: `Photographic exploration of various morphologies water surfaces.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/WaterPatterns/Water_patterns_02.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/WaterPatterns/Water_patterns_01.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/WaterPatterns/Water_patterns_03.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/WaterPatterns/Water_patterns_04.webp',
+        alt: ''
       }
     ]
   },
@@ -871,11 +1128,76 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Technique | Research',
     date: 'February 2020',
     description: `Digital lab for particle systems.`,
-    imageUrl: 'https://picsum.photos/id/1029/1920/1080',
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/ParticleSandbox/Particle_Sandbox_01.webp',
     content: [
       {
         type: 'text',
-        content: `An urban network has properties of emergence meaning that the entity of a system shows characteristics that an individual part of it does not.`
+        content: `An urban network has properties of emergence meaning that the entity of a system shows characteristics that an individual part of it does not. Examples for emergence in nature would be weather phenomenons like storms, the swarm behaviour of fish or the fractal pat¬terns of snowflakes. Im¬portant for an emerging system is that the interacting parts must retain their independence while at the same time affect each other. Urban sprawl operates in the same manner. Each person behaves in their individual way but the entity of how urban networks are growing on a larger scale relies on the interconnection between all of them.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/AlgorithmDiagram/Algorithm_Diagram_04.png',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `To create a system that takes these interconnections into account I used particles. This allows me to emit a large number of elements in a “digital Lab” that behave individually, can be controlled by a variety of forces and also interact with each other. Either they merge to an ensemble of a self-organizing geometry or they repel each other to symbolize counteracting properties of networks and generate new patterns.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ParticleSandbox/vertex.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ParticleSandbox/7.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `In this “digital lab” particle systems are placed which represent different Networks. These networks range from microscopic organic networks to large scale river networks. For the development of an urban environment that interacts sustainable within its milieu all aspects have to be taken into account. That means that the algorithm has to be constantly adapted as the knowledge about the environment grows.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ParticleSandbox/6.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ParticleSandbox/5.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `Applied on a topography each particle network is affected by different forces and the topography itself. In this way they reorganize and by connecting them they create optimized, self-organizing networks.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ParticleSandbox/1.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ParticleSandbox/2.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `When overlapping human and non-human networks there are different areas where many particles accumulate to dense spots. In these areas it becomes clear that both networks strive to areas with high surface water deposit since both depend on it. Especially the accumulation of dense urban areas as well as agriculture have a significant negative impact on the water quality and therefore the entire biosphere downstream. To ease the tensions between human and non-human networks and their impact on the surface waters we have rethink the strategies of how water is being distributed.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/ParticleSandbox/4.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `This blog is an extract from the book Hydromorphology. To read the full book click on the link below.`
+      },
+      {
+        type: 'link-button',
+        url: 'https://issuu.com/syntheticlandscapelab/docs/hydromorphology_korbinianenzinger_masterthesis_lq_',
+        label: 'READ FULL BOOK'
       }
     ]
   },
@@ -885,15 +1207,70 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Photography | Research',
     date: 'February 2020',
     description: `Morphologies formed by sand.`,
-    imageUrl: 'https://picsum.photos/id/1030/1920/1080',
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/SandPatterns/Sand_Pattern_01.webp',
     content: [
       {
         type: 'gallery',
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/950/1200/800',
-            alt: 'Sand 1'
+            src: 'https://storage.googleapis.com/mutualism-media/SandPatterns/Sand_Pattern_02.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/SandPatterns/Sand_Pattern_03.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/SandPatterns/Sand_Pattern_04.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/SandPatterns/Sand_Pattern_05.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/SandPatterns/Sand_Pattern_06.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/SandPatterns/Sand_Pattern_07.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/SandPatterns/Sand_Pattern_08.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/SandPatterns/Sand_Pattern_09.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/SandPatterns/Sand_Pattern_10.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/SandPatterns/Sand_Pattern_11.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/SandPatterns/Sand_Pattern_12.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/SandPatterns/Sand_Pattern_01.webp',
+            alt: ''
           }
         ]
       }
@@ -905,11 +1282,65 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Technique | Research',
     date: 'December 2019',
     description: `Turing patterns in nature.`,
-    imageUrl: 'https://picsum.photos/id/1031/1920/1080',
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/reaction_diffusion_01.webp',
     content: [
       {
         type: 'text',
-        content: `The process of Reaction-Diffusion is the next step from a deterministic system.`
+        content: `The process of Reaction-Diffusion is the next step from a deterministic system like Tessellation (see blog "Tesselation") to a system that is self-organizing and can change and evolve by adjusting parameters and conditions. The so called Turing Patterns, manifested in mathematical terms by Alan Turing in 1952, are believed to be the reason for the emergence of a wide variety of patterns found in nature (Staff, 2018). This theory might explain patterns like the stripes of a zebra, the ripples in sand or even the arrangement of fingers. It could also represent the interconnection between two contrary networks. In terms of our built environment this could be interpreted as the interconnection between human and non-human networks.`
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/rd_01.gif.sydownload',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/C1.webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/rd_02.gif',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/C2.webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/RD_Sand03.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/C3.webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'text',
+        content: `Reaction-Diffusion is a process that incorporates only two parameters in the equation. When analyzing landscapes in a systemic way it becomes obvious that the entity of the biosphere is a lot more complex and many more external forces play a role in the final outcome of the system.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Reaction_Diffusion/reaction_diffusion_01.webp',
+        alt: ''
       }
     ]
   },
@@ -918,12 +1349,65 @@ export const BLOG_POSTS: BlogPost[] = [
     title: 'Tessellation',
     category: 'Technique | Research',
     date: 'October 2019',
-    description: `Computational design growth patterns.`,
-    imageUrl: 'https://picsum.photos/id/1032/1920/1080',
+    description: ``,
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Tesselation/Tesselation_01.webp',
     content: [
       {
         type: 'text',
-        content: `The formation of an urban landscape like the Kathmandu Valley consists of two contrary processes.`
+        content: `The formation of an urban landscape like the Kathmandu Valley consists of two contrary processes. The first one, described in prio, is the morphology of the landscape through erosion processes (see blog "Erosion") mainly driven by water. The second one is the emergence of urban and biological structures that grow according to a systemic interconnection between various social, economic and ecologic parameters on multiple scales. These two contrary processes (Growth vs. Erosion) occur at different scales and also in a different time frame but like any other network they have an important influence on the systemic interconnections of the overall system.
+
+In the following experiment computational Design techniques were used as a speculative approach to develop growth patterns. Using algorithms in the design process allows me to use simple principles that can create complex results which closely correspond to growth patterns found in nature.`
+      },
+      {
+        type: 'blockquote',
+        content: `“The successful survival of the “real-time world city” requires participation and exchange at the various social levels and material scales; a code that incorporates participation must be able to grow as the network grows, it cannot be defined a priori in a controlled or predetermined environment. “Urban algorithms” co-evolve within their milieu, the articulation of their structure increases in relation to the complexity and diversity of the urban network they serve. “Urban algorithms” are the necessary coding logics for the self-organizing city.”
+
+Poletto/Pasquero, Systemic Architecture, p. 20`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/AlgorithmDiagram/Algorithm_Diagram_02.png',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `The following approach for an growth algorithm is based on the idea of 3d-tesselation. Repeating branching systems similar to the growth of a tree or a coral can be generated using simple building elements. The figures below illustrate how this looping algorithm can create a complex geometry by adding a V-shaped branch on top of itself and iterating this process multiple times. This process can be applied to an infinite variety of building elements and thus create endless amounts of output geometries.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Tesselation/04.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `The catalogue above shows how a deformation of the starting geometry influences the output geometry after 8 iterations of tessellation.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Tesselation/01.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `Using a simple plane as a starting geometry limits the tessellation algorithm to one direction. Using a V-shaped branch results in a morphology which closely corresponds to growth patterns of certain coals and various plant species.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Tesselation/02.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `Tesselating a branch on a cube as a base geometry let's the tessellation process take place on all 6 faces of the cube. Deformations to the base cube additionaly influence the output geometry.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/Tesselation/03.webp',
+        alt: ''
+      },
+      {
+        type: 'text',
+        content: `These 3D-Tessellations describe a growing process which does not react to any external parameters. For a more elaborated representation of human and non-human growth patterns we have to conceive the growing urban environment as an adaptive system with constant feedback loops, rather than a deterministic system because of the constantly changing external parameters. Most patterns found in nature are created through the interaction between two or more materials with external forces (Water, Wind, Gravity etc.) driving the process.`
       }
     ]
   }
