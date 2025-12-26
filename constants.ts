@@ -657,9 +657,9 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Research | Patterns',
     date: 'January 2024',
     description: `Study of fluid dynamics.`,
-    imageUrl: 'https://picsum.photos/id/1022/1920/1080',
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/Miscibility/Miscibility_TN1.webp',
     hasIntro: true,
-    introVideoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    introVideoUrl: 'https://storage.googleapis.com/mutualism-media/Miscibility/Miscibility01.mp4',
     content: [
       {
         type: 'video',
@@ -674,7 +674,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Research | Patterns',
     date: 'January 2024',
     description: `AI generated landscape patterns.`,
-    imageUrl: 'https://picsum.photos/id/1023/1920/1080',
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/ArtificialMorphologies/ArtificialMorphologies_Banner.webp',
     content: [
       {
         type: 'text',
@@ -685,12 +685,12 @@ export const BLOG_POSTS: BlogPost[] = [
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/701/600/600',
+            src: 'https://storage.googleapis.com/mutualism-media/ArtificialMorphologies/SaltCrystals_Microscopy01.webp',
             alt: 'Salt Micro'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/702/600/600',
+            src: 'https://storage.googleapis.com/mutualism-media/ArtificialMorphologies/SaltCrystals_Microscopy01_AI.webp',
             alt: 'Salt AI'
           }
         ]
@@ -700,13 +700,43 @@ export const BLOG_POSTS: BlogPost[] = [
         items: [
           {
             type: 'image',
-            src: 'https://picsum.photos/id/703/600/600',
+            src: 'https://storage.googleapis.com/mutualism-media/ArtificialMorphologies/SaltCrystals_Microscopy02.webp',
             alt: 'Salt Micro 2'
           },
           {
             type: 'image',
-            src: 'https://picsum.photos/id/704/600/600',
+            src: 'https://storage.googleapis.com/mutualism-media/ArtificialMorphologies/SaltCrystals_Microscopy02_AI.webp',
             alt: 'Salt AI 2'
+          }
+        ]
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ArtificialMorphologies/SoySauce_Microscopy01.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ArtificialMorphologies/SoySauce_Microscopy01_AI.webp',
+            alt: ''
+          }
+        ]
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ArtificialMorphologies/Carrot_Microscopy1.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/ArtificialMorphologies/Carrot_Microscopy1_AI.webp',
+            alt: ''
           }
         ]
       }
@@ -719,11 +749,46 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Research | Patterns',
     date: 'August 2023',
     description: `Exploration of landscape patterns through satellite imagery.`,
-    imageUrl: 'https://picsum.photos/id/1024/1920/1080',
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/AquaticMorphologies/am_TN.webp',
     content: [
       {
         type: 'text',
         content: `"Aquatic Morphologies" is a exploration of landscape patterns through high resolution satellite images. The selected areas (marked with their geo-locations) depict a set of landscapes which have been altered by hydrologic processes.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/AquaticMorphologies/Bahamas_2_web.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/AquaticMorphologies/vancouverIsland_1000m_web.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/AquaticMorphologies/vancouverIsland_2000m_web.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/AquaticMorphologies/vancouverIsland_10000m_web.webp',
+        alt: ''
+      },
+      {
+        type: 'grid-2-col',
+        items: [
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/AquaticMorphologies/LenaRiver_4000m_web.webp',
+            alt: ''
+          },
+          {
+            type: 'image',
+            src: 'https://storage.googleapis.com/mutualism-media/AquaticMorphologies/LenaRiver_10000m_web.webp',
+            alt: ''
+          }
+        ]
       }
     ]
   },
@@ -733,11 +798,26 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'Research | Patterns',
     date: 'August 2023',
     description: `Formal exploration of landscape patterns.`,
-    imageUrl: 'https://picsum.photos/id/1025/1920/1080',
+    imageUrl: 'https://storage.googleapis.com/mutualism-media/GeoPoster/TerrestrialMorphologiesTN.webp',
     content: [
       {
         type: 'text',
         content: `"Terrestrial Morphologies" is a formal exploration of landscape patterns through high resolution satellite images.`
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/GeoPoster/China01.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/GeoPoster/China02.webp',
+        alt: ''
+      },
+      {
+        type: 'image',
+        src: 'https://storage.googleapis.com/mutualism-media/GeoPoster/Jamaica.webp',
+        alt: ''
       }
     ]
   },
